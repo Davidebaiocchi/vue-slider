@@ -23,10 +23,13 @@ const app = new Vue(
             },
             prevPhoto(){
                 if(this.counter == 0){
-                    this.counter == this.photos.length - 1 
-                }else {
+                    this.counter = this.photos.length - 1 
+                } else {
                     this.counter--;
                 }
+                },
+                cambiaPhoto(indice){
+                    this.counter = indice;
             }
         }
     }
