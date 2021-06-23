@@ -46,5 +46,5 @@ i {
 }
 
 .navbar > i.active {
-    color: greenyellow;
+    color: rgb(255, 0, 0);
 }
